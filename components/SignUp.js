@@ -2,8 +2,6 @@
 
 import "../style/SignUp.css"
 import {useState} from 'react'
-//using props to connect one data to another
-//when you sign up successfully, you can see the welcome page. This is happening because of states and props.
 const SignUp = (props) => {
     const [password, setPassword] = useState("")
     const [confirmPassword, setConfirmPassword] = useState("")
@@ -22,7 +20,7 @@ const SignUp = (props) => {
             props.userAuthChanged()
             //alert("It worked!")
         }else{
-            alert("Your passwords are not the same. Try again")
+            alert("Try again")
         }
     }
 
