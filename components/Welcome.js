@@ -1,6 +1,5 @@
 const Welcome = () => {
     return <h1>Welcome!<br/>
-        Updates Coming Soon!
     </h1>
     
 
